@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightgray: hsl(212, 45%, 89%);
+  --Grayishblue: hsl(220, 15%, 55%);
+  --Darkblue: hsl(218, 44%, 22%);
+  --font: "Outfit", sans-serif;
+}
+h1 {
+  font-family: var(--font);
+  color: var(--Darkblue);
+  font-size: 24px;
+  margin: 0 10px;
+}
+p {
+  font-family: var(--font);
+  color: var(--Grayishblue);
+  font-size: 15px;
+  margin: 20px;
+}
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--lightgray);
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 290px;
+  background-color: var(--white);
+  text-align: center;
+  border-radius: 12px;
+}
+.container p {
+  padding-bottom: 40px;
+}
+
+img {
+  margin: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
